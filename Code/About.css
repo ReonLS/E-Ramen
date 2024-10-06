@@ -1,0 +1,322 @@
+@font-face {
+    font-family: 'Satoshireg';
+    src: url(../Fonts/Satoshi-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Satoshimed';
+    src: url(../Fonts/Satoshi-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Hiromisake';
+    src: url(../Fonts/HiroMisake.ttf);
+}
+
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    color: #333f72;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #f3ede1;
+}
+
+.navbar{
+    color: #333f72;
+    padding-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+text-decoration: none;  
+font-style: none; 
+margin-right: 20px;
+margin-left: 20px;
+color: #333f72;
+}
+
+.tombol{
+    font-size: 30px;
+    text-align: right;
+    flex: 1;
+    font-family: 'Satoshimed';
+}
+
+.menu:hover{
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+
+.promo:hover{
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+
+.about:hover{
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+
+.home{
+    font-family: 'Hiromisake';
+    font-size: 50px;
+    font-weight: 700;
+}
+.judul {
+    background-image: url(../Image/Vector2.png);
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    margin-bottom: 80px;
+}
+
+.judul h1{
+    font-family: 'Hiromisake';
+    font-weight: 100;
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.judul h2{
+    text-align: center;
+    font-family: 'Satoshireg';
+    color: #7b4404;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.interior{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.newsletter{
+    text-align: center;
+    display: block;
+    margin: 50px 100px 50px 100px;
+    border: 5px solid #333f72;
+}
+
+.newsletter p{
+    font-family: 'Satoshireg';
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.newsletter img{
+    width: 175px;
+}
+
+.newsletter h1{
+    font-family: 'Hiromisake';
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.newsletter h3{
+    font-family: 'Satoshireg';
+    font-weight: 100;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.email{
+    padding-bottom: 40px;
+}
+
+.e-mail{
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #333f72;
+    border-radius: 7px 7px 7px 7px;
+    width: 400px;
+    font-size: 15px;
+}
+.email button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.email a{
+    padding: 10px 15px 10px 15px;
+    border-radius: 7px 0px 7px 0px;
+    background-color: #333f72;
+    color: white;
+    font-size: 15px;
+}
+
+.commited{
+    width: 100%;
+    height: 800;
+    background-image: url(../Image/Marble.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.commited span{
+    font-family: 'Hiromisake';
+    color: #333f72;
+    font-size: 35px;
+}
+
+.commited p{
+    font-family: 'Satoshimed';
+    font-size: 30px;
+    color: #7b4404;
+    line-height: 35px;
+}
+
+.vision {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.vision h1{
+    text-align: center;
+    font-family: 'Hiromisake';
+    font-weight: 500;
+}
+
+.delight h1{
+    padding-top: 280px;
+    padding-bottom: 20px;
+    font-size: 45px;
+}
+
+.delight h2{
+    font-family: 'Satoshireg';
+    text-align: center;
+    color: #7b4404;
+}
+
+.our-vision {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.our-vision h1{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 130px;
+    margin-right: 130px;
+    font-size: 40px;
+    color: #7b4404;
+    border: 5px solid #7b4404;
+}
+
+.our-vision img {
+    height: 600px;
+}
+
+
+.newsletter{
+    text-align: center;
+    display: block;
+    margin: 50px 100px 50px 100px;
+    border: 5px solid #333f72;
+}
+
+.newsletter p{
+    font-family: 'Satoshireg';
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.newsletter img{
+    width: 175px;
+}
+
+.newsletter h1{
+    font-family: 'Hiromisake';
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.newsletter h3{
+    font-family: 'Satoshireg';
+    font-weight: 100;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.email{
+    padding-bottom: 40px;
+}
+
+.e-mail{
+    padding: 10px 15px 10px 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #333f72;
+    border-radius: 7px 7px 7px 7px;
+    width: 400px;
+    font-size: 15px;
+}
+.email button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.email a{
+    padding: 10px 15px 10px 15px;
+    border-radius: 7px 0px 7px 0px;
+    background-color: #333f72;
+    color: white;
+    font-size: 15px;
+}
+
+.email a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.footer{
+    display: block;
+    text-align: center;
+    background-image: url(../Image/BGfooter.jpg);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.logo{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.logo img{
+    margin-right: 30px;
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+    vertical-align: top;
+}
+
+.footer h1{
+    font-family: 'Satoshireg';
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
